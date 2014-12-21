@@ -1,0 +1,23 @@
+<div class="container">
+
+    <!-- Main component for a primary marketing message or call to action -->
+  <h1>Sign in with Twitter Sample</h1>
+  <p>Try to access the awesome features. Then Sign in. Then try to access it again.</p>
+
+  <% if @user %>
+    Welcome! <%= @user.nickname %><br><a href="/logout">Logout</a>
+    <form id ='post_later' action='/tweet_later' method='post'>
+      <input type='text' name='tweets' placeholder='Tweet Later'>
+
+      <input type='text' name='time' placeholder='in seconds eg. 10'>
+      <input type='submit' value='Tweet'>
+    </form>
+    <p id='status'>
+    </p>
+    <p id='tweet_loader'></p>
+  <%else%>
+    <a href="/login">Login with Twitter</a>
+  <%end%>
+
+
+</div> <!-- /container -->
