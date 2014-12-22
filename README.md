@@ -10,7 +10,7 @@ We'll be using Sidekiq, a Redis-based queue, for our background processing.
 
 Look in sidekiq/examples/sinkiq.rb for a Sintra-based example.
 
-Objectives
+The Objectives
 Sidekiq
 Add the sidekiq and redis gem to your Gemfile and require both in config/environment.rb. Run bundle install to install the gem.
 
