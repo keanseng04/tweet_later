@@ -8,7 +8,7 @@
 
 We're going to build off <a href="http://learn.codedivision.my/challenges/140">Tweet Now 2</a>. We've designed a system that lets someone tweet right now. The front-end should be nice and responsive - rather than waiting for the back end to submit the tweet we send of the request asynchronously.
 
-If you didn't get the other Twitter-posting challenges finished take the time to get them finished before starting this one. Seriously.
+If you didn't get the other Twitter-posting challenges finished take the time to get them finished before starting this one. Seriously!
 
 In the previous applications the front-end is responsive, but the back-end is still held up. Like an old lady paying with pennies in the grocery line, one slow request - where "slow" is greater than 100-200 milliseconds - can cause a huge backlog of requests.
 
